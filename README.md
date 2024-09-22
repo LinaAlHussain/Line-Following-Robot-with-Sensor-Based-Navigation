@@ -6,20 +6,25 @@ This project implements a basic robot that autonomously navigates using sensor d
 
 Key Features:
 Motor Control: The robot has basic movement functions (forward, left, right, backward, stop).
+
 Line Following: Based on sensor input, the robot follows a line.
+
 Speed Control: Motor speed is controlled via PWM (Pulse Width Modulation) for smooth movement.
+
 Modular Functions: Code includes modular functions to handle different movements.
+
 Hardware Requirements
 3 line detection sensors (e.g., infrared sensors for detecting black/white contrast)
 2 DC motors
 Motor driver (with PWM support)
 Arduino or compatible microcontroller
 Ultrasonic sensor (optional for obstacle detection)
-Pin Configuration:
+
 Sensors:
 Left Sensor (LSP) on digital pin A5
 Middle Sensor (MSP) on digital pin A4
 Right Sensor (RSP) on digital pin A3
+
 Motors:
 Left Motor connected to digital pins 7 and 6
 Right Motor connected to digital pins 5 and 4
