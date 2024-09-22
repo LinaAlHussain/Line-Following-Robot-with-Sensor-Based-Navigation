@@ -1,5 +1,7 @@
 # Line-Following-Robot-with-Sensor-Based-Navigation
-Overview
+Overview:
+
+
 This project implements a basic robot that autonomously navigates using sensor data. The robot follows a line by analyzing inputs from three sensors (left, middle, right), which help it determine whether to move forward, turn left, or turn right. It also includes simple logic for handling specific situations (like repeated loops or missing lines).
 
 Key Features:
